@@ -7,7 +7,7 @@ clc;
 % of these two results as the final result of each image.
 run(fullfile(fileparts(mfilename('fullpath')),...
   '..', '..', 'matlab', 'vl_setupnn.m')) ;
-data_horizontal_Dir='data/kidney-baseline-simplenn/horizontal/';
+data_horizontal_Dir='data/kidney-baseline-simplenn/';
 data_vertical_Dir='data/kidney-baseline-simplenn/vertical/';
 modelDir=strcat(data_horizontal_Dir,'H1.mat');
 load('kidney_data\testpatch_horizontal.mat');%a struct variable being included, named images, which consist of three fields: data,labels,location.
