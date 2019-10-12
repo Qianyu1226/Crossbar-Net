@@ -12,11 +12,14 @@ The code runs on Matconvnet1.0-beta20. This is the CPU version and you can chang
 
 If you find Crossbar-Net useful, please consider citing:
 
-  @article{Qian2018crossbar,
-  author= {Qian Yu, Yinhuan Shi, Jinquan Sun, Yang Gao,Jianbing Zhu and Yakang Dai}, 
-  title  = {Crossbar-Net: A Novel Convolutional Neural Network for Kidney Tumor Segmentation in CT Images},
-  journal={arXiv preprint arXiv:1804.10484v2},
-  year= {2018}
+ @article{yu2019crossbar,
+title = {Crossbar-{Net}: A Novel Convolutional Neural Network for Kidney Tumor Segmentation in {CT} Images},
+author= {Yu, Qian and Shi, Yinhuan and Sun, Jinquan and Gao, Yang and Zhu, Jianbing and Dai, Yakang},
+journal={IEEE Transactions on Image Processing},
+volume={28},
+number={8},
+pages={4060--4074},
+year= {2019}
 }
 
 ### Sampling training patches with basic sampling strategy
